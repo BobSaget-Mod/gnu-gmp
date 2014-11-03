@@ -105,9 +105,6 @@ see https://www.gnu.org/licenses/.
    don't. */
 #undef HAVE_DECL_VFPRINTF
 
-/* Define to 1 if you have the <dlfcn.h> header file. */
-#undef HAVE_DLFCN_H
-
 /* Define one of the following to 1 for the format of a `double'.
    If your format is not among these choices, or you don't know what it is,
    then leave all undefined.
@@ -505,10 +502,6 @@ see https://www.gnu.org/licenses/.
 
 /* Assembler local label prefix */
 #undef LSYM_PREFIX
-
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
-#undef LT_OBJDIR
 
 /* Name of package */
 #undef PACKAGE
